@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
-using namespase std;
 int main(){
-string  name;
-cin >> name;
-cout << "Hello world from" << name;
+string name;
+std::cin >> name;
+std::cout << "Hello world from" << name;
 }
