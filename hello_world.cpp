@@ -4,6 +4,6 @@ int
 main()
 {
   string name;
-  std::cin >> name;
-  \\Имя пользователя std::cout << "Hello world from" << name;
+  std::cin >> name; \\User name
+  std::cout << "Hello world from" << name;
 }
